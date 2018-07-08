@@ -19,7 +19,6 @@ public class LoginPage extends Reusablefunctions{
 	
 	public LoginPage(WebDriver driver){
 		this.driver = driver;
-		
 		PageFactory.initElements(driver,this);
 		}
 	
