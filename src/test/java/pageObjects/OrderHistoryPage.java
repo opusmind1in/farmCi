@@ -22,6 +22,7 @@ public class OrderHistoryPage {
 	
 	public void orderHistoryPageDisplayed(){
 		if(Title_OrderHistory.isDisplayed()){
+			
 		Link_OrderItem.click();
 	}
 	}
