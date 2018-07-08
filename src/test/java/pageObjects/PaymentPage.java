@@ -13,6 +13,7 @@ WebDriver driver;
 	
 	public PaymentPage(WebDriver driver){
 		this.driver = driver;
+		
 		PageFactory.initElements(driver,this);
 	}
 	
